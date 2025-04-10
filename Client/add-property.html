@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Add Property - Cozy Corner</title>
+  <link rel="stylesheet" href="css/add-property.css" />
+</head>
+<body>
+
+  <h2>Add New Property</h2>
+
+  <form id="propertyForm">
+    <input type="text" id="title" placeholder="Property Title" required />
+    <textarea id="description" placeholder="Description" rows="4"></textarea>
+    <input type="number" id="price" placeholder="Price (INR)" required />
+    <input type="text" id="location" placeholder="Location" required />
+    <select id="propertyType" required>
+      <option value="">Select Type</option>
+      <option value="rent">For Rent</option>
+      <option value="sale">For Sale</option>
+    </select>
+    <button type="submit">Submit Property</button>
+  </form>
+
+  <script src="js/add-property.js"></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+body {
+    font-family: Poppins, sans-serif;
+    margin: 0;
+    padding: 2rem;
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  .dashboard-container {
+    max-width: 900px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  }
+  
+  h2, h3 {
+    text-align: center;
+    color: #222;
+  }
+  
+  .user-info {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .user-info p {
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+  }
+  
+  .dashboard-section {
+    margin-top: 2rem;
+  }
+  
+  .dashboard-section h3 {
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 0.5rem;
+  }
+  
+  .property-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: #fafafa;
+  }
+  
+  .property-card h4 {
+    margin: 0 0 0.5rem;
+  }
+  
+  .property-card p {
+    margin: 0.3rem 0;
+    font-size: 0.95rem;
+  }
+  
+  button.logout-btn {
+    margin-top: 2rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.8rem 1.5rem;
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  button.logout-btn:hover {
+    background-color: #e65a4f;
+  }
+  

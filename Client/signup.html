@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Signup - Cozy Corner</title>
+  <link rel="stylesheet" href="css/signup.css" />
+</head>
+<body>
+
+  <h2>Signup</h2>
+
+  <form id="signupForm">
+    <input type="text" id="name" placeholder="Full Name" required />
+    <input type="email" id="email" placeholder="Email" required />
+    <input type="password" id="password" placeholder="Password" required />
+    <select id="role" required>
+      <option value="">Select Role</option>
+      <option value="landlord">Landlord</option>
+      <option value="tenant">Tenant</option>
+    </select>
+    <button type="submit">Signup</button>
+  </form>
+
+  <script src="js/signup.js"></script>
+</body>
+</html>

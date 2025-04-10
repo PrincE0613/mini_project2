@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="/Client/css/dashboard.css" />
+
+</head>
+<body>
+  <h2 id="welcomeText">Welcome</h2>
+  <p id="roleText"></p>
+  <div id="landlordPanel" style="display: none;">
+    <h3>Add a Property</h3>
+    <form id="propertyForm">
+      <input type="text" id="title" placeholder="Title" required /><br>
+      <textarea id="description" placeholder="Description"></textarea><br>
+      <input type="number" id="price" placeholder="Price" required /><br>
+      <input type="text" id="location" placeholder="Location" required /><br>
+      <select id="propertyType">
+        <option value="rent">Rent</option>
+        <option value="sale">Sale</option>
+      </select><br>
+      <button type="submit">Add Property</button>
+    </form>
+  </div>
+  
+
+  <button onclick="logout()">Logout</button>
+
+  <script src="js/dashboard.js"></script>
+</body>
+</html>
