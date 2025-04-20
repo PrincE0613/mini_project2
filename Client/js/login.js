@@ -17,12 +17,12 @@ form.addEventListener("submit", async (e) => {
     if (res.ok) {
       localStorage.setItem("token", data.token);
       localStorage.setItem("user", JSON.stringify(data.user));
-      alert("Login successful!");
+      alert("Welcome back! Redirecting to your dashboard...");
       window.location.href = "index.html";
     } else {
-      alert(data.message || "Login failed.");
+      alert(data.message || "Incorrect email or password.");
     }
   } catch (err) {
-    alert("Error: " + err.message);
+    alert("Unable to connect to the server: " + err.message);
   }
 });

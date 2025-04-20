@@ -2,25 +2,33 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Signup - Cozy Corner</title>
+  <title>Signup - Property Hub</title>
   <link rel="stylesheet" href="css/signup.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
-  <h2>Signup</h2>
+<div class="form-container">
+  <div class="form-box">
+    <h2>Create an Account</h2><br>
+    <p class="sub-text">Join <span style="color: orangered;">Cozy Corner</span> to start your journey.</p>
 
-  <form id="signupForm">
-    <input type="text" id="name" placeholder="Full Name" required />
-    <input type="email" id="email" placeholder="Email" required />
-    <input type="password" id="password" placeholder="Password" required />
-    <select id="role" required>
-      <option value="">Select Role</option>
-      <option value="landlord">Landlord</option>
-      <option value="tenant">Tenant</option>
-    </select>
-    <button type="submit">Signup</button>
-  </form>
+    <form id="signupForm">
+      <input type="text" id="name" placeholder="Full Name" required />
+      <input type="email" id="email" placeholder="Email address" required />
+      <input type="password" id="password" placeholder="Password" required />
+      <select id="role" required>
+        <option value="">Select Role</option>
+        <option value="landlord">Landlord</option>
+        <option value="tenant">Tenant</option>
+      </select>
+      <button type="submit">Signup</button>
+    </form>
 
-  <script src="js/signup.js"></script>
+    <p class="link-text">Already have an account? <a href="login.html">Login</a></p>
+  </div>
+</div>
+
+<script src="js/signup.js"></script>
 </body>
 </html>
